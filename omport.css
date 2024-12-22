@@ -249,11 +249,6 @@ body {
     border-radius: 10px;
     background-color: yellow;
   }
-  input:focus{
-
-    border-color: yellow;
-
-  }
 }
 
 /* skill section */
