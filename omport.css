@@ -249,7 +249,7 @@ body {
     border-radius: 10px;
     background-color: yellow;
   }
-  input[type="text"]:focus{
+  input:focus{
 
     border-color: yellow;
 
