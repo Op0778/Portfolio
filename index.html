@@ -144,18 +144,20 @@
       <br /><br /><br />
       <form action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="f80d8f01-edf8-4688-8229-ffcbc62cc471">
-        <input  type="text" name="Name" id="name" placeholder="name"  />
+        <input  type="text" name="Name" id="name" placeholder="name" required />
         <input
           type="text"
           name="Name"
           id="name"
           placeholder="lastname"
+          required
         /><br /><br />
         <input
           type="email"
           name="E-mail"
           id="mail"
           placeholder="example@gmail.com"
+          required
         /><br /><br />
 
         <textarea
@@ -163,6 +165,7 @@
           name="Message"
           id="msg"
           placeholder="message here"
+          required
         ></textarea
         ><br /><br />
         <input type="submit" value="Submit" />
